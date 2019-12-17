@@ -30,7 +30,7 @@ export const login = ({commit}, user) => {
         commit(types.LOGIN, response.token);
         store.dispatch('user/find')
         Vue.router.push({
-            name: 'home.index',
+            name: 'home',
         })
     })
     .catch((error) => {

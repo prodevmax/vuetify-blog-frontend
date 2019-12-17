@@ -7,7 +7,6 @@
             <v-img
               :src="article.fileUrl"
               class="white--text"
-              height="200px"
             >
               <v-container fill-height fluid>
                 <v-layout fill-height>
